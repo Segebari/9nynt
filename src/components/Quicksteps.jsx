@@ -36,7 +36,7 @@ const Quicksteps = () => {
 
                 <li>
                     <h4 className='font-bold text-lg'>
-                        Customers Pre-BookDownload Apps
+                        Customers Pre-Book Download Apps
                     </h4>
                     <p className='text-xs pt-2'>
                         Anticipate trends, exceed customers expectation and drive sales to new heights with our pre-booking feature. 
