@@ -37,8 +37,8 @@ const Faq = () => {
 
   return (
     <>
-      <div className="flex h-96 my-10">
-        <div className="w-1/2">
+      <div className="flex xs:flex-col xs:gap-16 md:gap-0 md:flex-row md:h-96 my-10">
+        <div className="md:w-1/2">
 
             <h2 className='font-bold text-3xl pb-8'>
                 Have Question About <br />
@@ -63,7 +63,7 @@ const Faq = () => {
             ))}
           </ul>
         </div>
-        <div className="w-1/2">
+        <div className="md:w-1/2">
           <img src={img} alt="clothes and food" className="h-96 m-auto" style={{ objectFit: 'cover' }} />
         </div>
       </div>

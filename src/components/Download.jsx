@@ -8,15 +8,15 @@ const Download = () => {
   return (
     <>
       <div className='bg-down h-96 w-full my-28 rounded-md relative'>
-        <img src={img} alt="Iphone and people" className="dn-phone  absolute" style={{ objectFit: 'cover' }} />
+        <img src={img} alt="Iphone and people" className="dn-phone  absolute xs:hidden md:block" style={{ objectFit: 'cover' }} />
 
-        <div className='flex pt-32 pl-20'>
+        <div className='flex xs:pt-10 md:pt-20 md:pl-20 '>
 
-             <div className='w-1/2'>
+             <div className='xs:hidden md:block w-1/2'>
 
              </div>
 
-             <div className=' text-white w-1/2'>
+             <div className=' text-white md:w-1/2 px-5'>
                 <h3 className='text-white text-4xl font-bold pb-2'>
                     Download 
                 </h3>

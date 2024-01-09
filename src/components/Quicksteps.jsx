@@ -4,15 +4,15 @@ import img from '../assets/steps.svg'; // Adjust the path accordingly
 const Quicksteps = () => {
   return (
     <>
-      <div className='mt-40 relative flex pb-20'>
-
-        <div className='w-1/2 h-96'>
-            <img src={img} alt="x" className="h-96" style={{ objectFit: 'cover' }} />
+      <div className='md:mt-40 xs:mt-[45rem] xs:mb-48 flex md:flex-row xs:flex-col pb-20'>
+ 
+        <div className='md:w-1/2 h-96'>
+            <img src={img} alt="x" className="h-96 md:w-auto" style={{ objectFit: 'contain' }} />
         </div>
 
-        <div className='w-1/2 h-96'>
-            <h3 className='font-bold text-3xl'>
-                Quick Steps to Use 9nynt <br />Shop
+        <div className='md:w-1/2 h-96 xs:pt-10'>
+            <h3 className='font-bold text-3xl md:text-left  xs:text-center pb-5'>
+                Quick Steps to Use 9nynt Shop
             </h3>
 
             <ul className='list-disc'>

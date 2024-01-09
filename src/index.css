@@ -2,70 +2,103 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    /* font-family: 'Expletus Sans', sans-serif; */
-    font-family: 'Inter', sans-serif;
+
+@layer base {
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        /* font-family: 'Expletus Sans', sans-serif; */
+        font-family: 'Inter', sans-serif;
+    }
+    
+    body {
+        padding: 0 5rem;
+    }
+    
 }
 
+@layer components {
 
-body {
-    padding: 0 5rem;
-}
-  
-.bg-ft {
-    background-image: url(/src/assets/featbg.svg);
-    background-size: cover;
-    background-repeat: none;
-}
+    .container {
+        margin: 0 auto;
+        padding: 0 1rem;
+    }
 
-.drop-shadow {
-    box-shadow: -4px 3px 10px 2px rgba(0,0,0,0.27);
--webkit-box-shadow: -4px 3px 10px 2px rgba(0,0,0,0.27);
--moz-box-shadow: -4px 3px 10px 2px rgba(0,0,0,0.27);
-}
-
-.inter-font {
-    font-family: 'Expletus Sans', sans-serif;
-}
-
-.ft1 {
-    background-image: url(/src/assets/ft1.svg);
-    background-size: 500px 300px;
-    background-position: 30% 170%;
-    background-repeat: no-repeat;
-}
-
-.ft2 {
-    background-image: url(/src/assets/ft2.svg);
-    background-size: 300px 250px;
-    background-position: 30% 100%;
-    background-repeat: no-repeat;
-}
-
-.ft3 {
-    background-image: url(/src/assets/ft3.svg);
-    background-size: 300px 300px;
-    background-position: 60% -50%;
-    background-repeat: no-repeat;
-}
-
-.list-disc li::marker {
-    font-size: 2rem; /* Adjust size as needed */
-  }
-  
-  
-.bg-down {
-    height: 30rem;
-    background-image: url(/src/assets/featbg.svg);
-    background-size: cover;
-    background-repeat: none;
-}
-
-.dn-phone {
-    left: 4.5rem;
-    top: -3rem;
-    height: 35rem;
+    .bg-ft {
+        background-image: url(/src/assets/featbg.svg);
+        background-size: cover;
+        background-repeat: none;
+    }
+    
+    .drop-shadow {
+        box-shadow: -4px 3px 10px 2px rgba(0,0,0,0.27);
+    -webkit-box-shadow: -4px 3px 10px 2px rgba(0,0,0,0.27);
+    -moz-box-shadow: -4px 3px 10px 2px rgba(0,0,0,0.27);
+    }
+    
+    .inter-font {
+        font-family: 'Expletus Sans', sans-serif;
+    }
+    
+    .ft1 {
+        background-image: url(/src/assets/ft1.svg);
+        background-size: 500px 300px;
+        background-position: 30% 200%;
+        background-repeat: no-repeat;
+    }
+    
+    @media (max-width:768px) {
+        .ft1 {
+            background-size: 300px 250px;
+            background-position: 10% 220%;
+        }
+    }
+    
+    .ft2 {
+        background-image: url(/src/assets/ft2.svg);
+        background-size: 300px 300px;
+        background-position: 100% 130%;
+        background-repeat: no-repeat;
+    }
+    
+    @media (max-width:768px) {
+        .ft2 {
+            background-size: 300px 250px;
+            background-position: 10% 160%;
+        }
+    }
+    
+    .ft3 {
+        background-image: url(/src/assets/ft3.svg);
+        background-size: 300px 300px;
+        background-position: -10% -50%;
+        background-repeat: no-repeat;
+    }
+    
+    @media (max-width:768px) {
+        .ft3 {
+            background-size: 300px 250px;
+            background-position: 60% -50%;
+        }
+    }
+    
+    .list-disc li::marker {
+        font-size: 2rem; /* Adjust size as needed */
+      }
+      
+      
+    .bg-down {
+        height: 30rem;
+        background-image: url(/src/assets/featbg.svg);
+        background-size: cover;
+        background-repeat: none;
+    }
+    
+    .dn-phone {
+        left: 4.5rem;
+        top: -3rem;
+        height: 30rem;
+    }
 }
