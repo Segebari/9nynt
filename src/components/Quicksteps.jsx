@@ -15,7 +15,7 @@ const Quicksteps = () => {
                 Quick Steps to Use 9nynt Shop
             </h3>
 
-            <ul className='list-disc'>
+            <ul className='list-disc xs:pl-6'>
                 <li>
                     <h4 className='font-bold text-lg'>
                         Download Apps
