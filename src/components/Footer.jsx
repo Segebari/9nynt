@@ -5,29 +5,29 @@ import logob from '../assets/9nynt-black.svg';
 const Footer = () => {
   return (
     <>
-      <div className='flex w-full h-48 justify-between'>
+      <div className='flex xs:flex-col xs:gap-5 md:flex-row w-full md:h-48 justify-between'>
 
-        <div>
-            <img src={logob} alt="logo" className="h-10 w-28" />
-            <p className='text-xs pt-5'>
+        <div className='md:mb-0 xs:mb-5'>
+            <img src={logob} alt="logo" className="h-10 w-34" />
+            <p className='text-[.9rem] pt-5'>
                 Our platform is designed to simplify shop management, <br />
                 streamline transactions, and foster community growth.
             </p>
         </div>
 
         <div>
-            <h4 className='font-bold'>
+            <h4 className='font-bold text-[1rem]'>
                 About Us
             </h4>
 
             <ul>
-                <li className='text-xs py-2'>
+                <li className='text-[.9rem] py-2'>
                     Project
                 </li>
-                <li className='text-xs py-2'>
+                <li className='text-[.9rem] py-2'>
                     Pricing
                 </li>
-                <li className='text-xs py-2'>
+                <li className='text-[.9rem] py-2'>
                     Services
                 </li>
             </ul>
@@ -42,11 +42,11 @@ const Footer = () => {
 
             <ul>
 
-                <li className='text-xs py-2'>
+                <li className='text-[.9rem] py-2'>
                     Privacy policy
                 </li>
 
-                <li className='text-xs py-2'>
+                <li className='text-[.9rem] py-2'>
                     Terms & services
                 </li>
 
@@ -61,10 +61,10 @@ const Footer = () => {
             </h4>
 
                 <ul>
-                    <li className='text-xs py-2'>
+                    <li className='text-[.9rem] py-2'>
                         9nyntshop@gmail.com
                     </li>
-                    <li className='text-xs py-2'>
+                    <li className='text-[.9rem] py-2'>
                         +2349049861561
                     </li>
                     <li className='flex icons'>
@@ -79,7 +79,7 @@ const Footer = () => {
 
       </div>
 
-      <div className='text-center text-xs pb-3'>
+      <div className='md:text-center xs:text-left text-xs pb-3 xs:mt-10 md:mt-0'>
             Copyright @ 2023 9nynt. All rights reserved.
       </div>
     </>
