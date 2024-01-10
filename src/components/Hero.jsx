@@ -10,10 +10,10 @@ const Hero = () => {
   return (
     <>
 
-        <div className='flex xs:flex-col md:flex-row md:mt-20  md:h-96 xs:gap-10'>
+        <div className='flex xs:flex-col lg:flex-row md:mt-20  lg:h-96 xs:gap-10 lg:gap-0'>
 
-            <div className='md:w-1/2 xs:text-center md:text-left'>
-                <h1 className='font-semibold xs:text-[1.7rem] md:text-5xl pt-14'>
+            <div className='lg:w-1/2 xs:text-center lg:text-left'>
+                <h1 className='font-semibold xs:text-[1.7rem] lg:text-5xl pt-14'>
                     Predictable Growth <br /> Starts Here.
                 </h1>
                 <p className='m-w-1/2 text-xxs md:text-[1.2rem] pt-5'>We are dedicated to empowering entrepreneurs like you. Navigate your path to triumph with our effortless tools designed to fuel your business growth.</p>
@@ -50,8 +50,8 @@ const Hero = () => {
                 </div>
             </div>
 
-            <div className='md:w-1/2 md:h-96  md:block'>
-                <img src={img} alt="Iphone and people" className=" min-w-[320px] h-96 md:ml-auto" style={{ objectFit: 'contain' }} />
+            <div className='lg:w-1/2 lg:h-96  lg:block'>
+                <img src={img} alt="Iphone and people" className=" min-w-[320px] h-96 md:w-full" style={{ objectFit: 'contain' }} />
             </div>
 
         </div>
