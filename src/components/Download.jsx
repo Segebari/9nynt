@@ -16,7 +16,7 @@ const Download = () => {
 
              </div>
 
-             <div className=' text-white md:w-1/2 px-5'>
+             <div className=' text-white md:w-1/2 xs:w-full flex flex-col xs:items-center md:items-start px-5 xs:relative'>
                 <h3 className='text-white text-4xl font-bold pb-2'>
                     Download 
                 </h3>

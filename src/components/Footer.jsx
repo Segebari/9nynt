@@ -1,5 +1,8 @@
 import React from 'react'
 import logob from '../assets/9nynt-black.svg';
+import whats from '../assets/whatsapp.svg';
+import insta from '../assets/instagram.svg';
+import faceb from '../assets/facebook.svg';
 
 
 const Footer = () => {
@@ -67,8 +70,13 @@ const Footer = () => {
                     <li className='text-[.9rem] py-2'>
                         +2349049861561
                     </li>
-                    <li className='flex icons'>
+                    <li className='flex icons gap-3'>
                         
+                        <img src={whats} alt="logo" className="h-5 w-5" />
+
+                        <img src={insta} alt="logo" className="h-5 w-5" />
+
+                        <img src={faceb} alt="logo" className="h-5 w-5" />
 
                     </li>
 
