@@ -26,8 +26,8 @@ const Download = () => {
                 Now !
                 </h3>
                 <p className='text-xs pt-3'>
-                    Our platform is created to make shop-management <br />
-                    straightforward, facilitate smooth transactions, and  <br />
+                    Our platform is created to make shop-management
+                    straightforward, facilitate smooth transactions, and
                     contribute to the growth of community networks.
                 </p>
 
