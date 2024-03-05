@@ -11,7 +11,7 @@ const Nav = () => {
   return (
     <>
       <nav className="flex w-full justify-between items-center pt-4">
-        <img src={logob} alt="logo" className="h-10 w-32" />
+        <Link to="/"> <img src={logob} alt="logo" className="h-10 w-32" /> </Link>
 
         <div
           className={`menu hidden md:text-black xs:text-white md:bg-transparent xs:bg-black  xs:absolute md:relative xs:w-screen md:w-auto xs:h-screen md:h-auto xs:top-0 md:top-auto xs:left-0 md:left-auto xs:right-0 md:right-auto md:block ${
