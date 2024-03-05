@@ -1,24 +1,20 @@
-import { useState } from 'react'
+import React from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Home from  './pages/Home'
+import About from './pages/About'
 import Nav from './components/Nav'
-import Hero from './components/Hero'
-import Features from './components/Features'
-import Quicksteps from './components/Quicksteps'
-import Faq from './components/Faq'
-import Download from './components/Download'
-import Footer from './components/Footer'
+
 
 function App() {
-
   return (
-    <>
-    <Nav></Nav>
-    <Hero></Hero>
-    <Features></Features>
-    <Quicksteps></Quicksteps>
-    <Faq></Faq>
-    <Download></Download>
-    <Footer></Footer>
-    </>
+    <BrowserRouter>
+    <Nav/>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        {/* Add additional routes for other pages */}
+      </Routes>
+    </BrowserRouter>
   )
 }
 
