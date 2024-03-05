@@ -1,8 +1,8 @@
 import React from 'react'
-import img from '../assets/dimg.svg'; 
-import google from '../assets/googleplay.svg';
-import apple from '../assets/apple.svg';
-import logoa from '../assets/9nynt-white.svg';
+import img from '../../assets/dimg.svg'; 
+import google from '../../assets/googleplay.svg';
+import apple from '../../assets/apple.svg';
+import logoa from '../../assets/9nynt-white.svg';
 
 const Download = () => {
   return (

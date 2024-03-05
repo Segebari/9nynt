@@ -1,9 +1,9 @@
 import React from 'react'
-import Hero from '../components/Hero'
-import Features from '../components/Features'
-import Quicksteps from '../components/Quicksteps'
-import Faq from '../components/Faq'
-import Download from '../components/Download'
+import Hero from '../components/homepage/Hero'
+import Features from '../components/homepage/Features'
+import Quicksteps from '../components/homepage/Quicksteps'
+import Faq from '../components/homepage/Faq'
+import Download from '../components/homepage/Download'
 import Footer from '../components/Footer'
 
 function Home() {

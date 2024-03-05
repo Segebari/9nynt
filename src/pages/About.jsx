@@ -1,9 +1,12 @@
 import React from 'react'
+import AboutHero from '../components/Aboutpage/AboutHero'
+import Ourprocess from '../components/Aboutpage/Ourprocess'
 
 function About() {
   return (
     <>
-      <h1>About page</h1>
+      <AboutHero />
+      <Ourprocess />
     </>
   )
 }

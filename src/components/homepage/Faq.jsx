@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import img from '../assets/faq.svg';
+import img from '../../assets/faq.svg';
 
 const Faq = () => {
   const [expandedAnswers, setExpandedAnswers] = useState([]);

@@ -1,5 +1,5 @@
 import React from 'react'
-import img from '../assets/steps.svg'; // Adjust the path accordingly
+import img from '../../assets/steps.svg'; // Adjust the path accordingly
 
 const Quicksteps = () => {
   return (
