@@ -1,4 +1,5 @@
 import React from 'react'
+import Benefitslogic from './Benefits/Benefitslogic'
 
 const Ourprocess = () => {
   return (
@@ -10,6 +11,8 @@ const Ourprocess = () => {
           Discover How 9nynt Shop Benefits Various Industries
         </h4>
       </div>
+
+      <Benefitslogic/>
     </>
   )
 }
