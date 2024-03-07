@@ -7,7 +7,7 @@ const Work = () => {
   return (
     <div className="h-auto w-full flex flex-col items-center py-10">
       <h3 className="font-bold text-4xl pb-10">We Work With Founders Who;</h3>
-      <div className="flex justify-center gap-10 h-96 bg-work w-full rounded-lg py-5">
+      <div className="flex justify-center gap-10 h-96 bg-work w-full rounded-lg">
         <div className="w-[30%] flex flex-col items-center p-10 text-center justify-center">
           <img src={icona} alt="icon" className="h-8 w-8 mb-5" />
           <h4 className="text-white text-xl font-bold pb-5">
