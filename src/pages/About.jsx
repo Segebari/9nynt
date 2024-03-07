@@ -7,6 +7,9 @@ import Simplify from '../components/Aboutpage/Simplify'
 import Work from '../components/Aboutpage/Work'
 import Pricing from '../components/Aboutpage/Pricing'
 import Payment from '../components/Aboutpage/Payment'
+import Faq from '../components/homepage/Faq'
+import Download from '../components/homepage/Download'
+import Footer from '../components/Footer'
 
 function About() {
   return (
@@ -19,6 +22,9 @@ function About() {
       <Work />
       <Pricing />
       <Payment />
+      <Faq />
+      <Download />
+      <Footer />
     </>
   )
 }
