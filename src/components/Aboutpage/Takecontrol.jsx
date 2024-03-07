@@ -5,16 +5,16 @@ const Takecontrol = () => {
   return (
     <div className="bg-down flex justify-between h-96 w-full my-28 rounded-md relative pt-14 px-10 overflow-hidden">
       <div className="px-10">
-        <h2 className="text-white text-4xl font-bold">
+        <h2 className="text-white text-5xl font-bold">
           Take Control with 9nynt Shop!
         </h2>
-        <p className="text-white pt-5 text-lg">
+        <p className="text-white pt-5 text-xl">
           Download the App and Transform Your Business Today!
         </p>
         <Downloadbuttons />
       </div>
       <div className="w-[50%] h-auto relative grid justify-items-end">
-        <img src={iphonea} alt="Iphone" className=" w-[80%]" />
+        <img src={iphonea} alt="Iphone" className=" w-[100%]" />
       </div>
     </div>
   )
