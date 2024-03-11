@@ -3,7 +3,7 @@ import React from 'react'
 const AboutHero = () => {
   return (
     <>
-      <div className="w-full h-auto mt-[1rem] text-center xs:px-auto md:px-52 pb-20 bg-gray-50 py-20 mb-8">
+      <div className="w-full h-auto mt-[1rem] text-center xs:px-auto lg:px-52 pb-20 bg-gray-50 py-20 mb-8">
         <h1 className=" xs:text-4xl md:text-6xl font-extrabold">
           <span className="text-gradient">Empower Your Business with </span>
           <span className="text-black border-b-8 border-black pb-1">9nynt</span>
