@@ -6,7 +6,7 @@ const Simplify = () => {
       <h3 className="font-bold text-4xl pb-5">
         Simplify Your Business Journey
       </h3>
-      <p className="font-semibold pb-5">
+      <p className="font-semibold pb-5 text-xl">
         Our Seamless Process for Ultimate Convenience
       </p>
       <ul className="text-xl list-disc text-left">
