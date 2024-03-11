@@ -9,7 +9,7 @@ const AboutHero = () => {
           <span className="text-black border-b-8 border-black pb-1">9nynt</span>
           <span className="text-gradient pl-2">Shop</span>
         </h1>
-        <p className="pt-10 text-lg font-semibold">
+        <p className="pt-10 text-lg font-semibold xs:px-5">
           Streamlining Commerce, Maximizing Growth
         </p>
       </div>
