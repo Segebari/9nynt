@@ -1,6 +1,7 @@
 import React from 'react'
 import iphonea from '../../assets/iphonea.svg'
 import Downloadbuttons from '../Downloadbuttons'
+
 const Takecontrol = () => {
   return (
     <div className="bg-down flex justify-between h-96 w-full my-28 rounded-md relative pt-14 px-10 overflow-hidden xs:text-center lg:text-left">
