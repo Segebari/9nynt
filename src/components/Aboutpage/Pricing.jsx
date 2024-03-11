@@ -9,7 +9,7 @@ const Pricing = () => {
         Flexible Solutions, Tailored for You
       </h3>
       <div className="flex xs:flex-col lg:flex-row w-full justify-between my-10 ">
-        <div className="bg-price h-[35rem] lg:w-[30%] rounded-xl text-white p-5 xs:mb-10 lg:mb-0">
+        <div className="bg-price lg:h-[35rem] lg:w-[30%] rounded-xl text-white p-5 xs:mb-10 lg:mb-0">
           <h4 className="text-2xl font-semibold pb-3">BASIC</h4>
           <p>
             Ideal for businesses with dynamic offerings or frequent promotions,
@@ -60,7 +60,7 @@ const Pricing = () => {
             Start free 14-day Trial
           </button>
         </div>
-        <div className="bg-price h-[35rem] lg:w-[30%] rounded-xl text-white p-5 xs:mb-10 lg:mb-0">
+        <div className="bg-price lg:h-[35rem] lg:w-[30%] rounded-xl text-white p-5 xs:mb-10 lg:mb-0">
           <h4 className="text-2xl font-semibold pb-3">PROFESSIONAL</h4>
           <p>
             Benefit from advanced features, marketing tools, and an extended
@@ -96,7 +96,7 @@ const Pricing = () => {
             Start free 7-day Trial
           </button>
         </div>
-        <div className="bg-price h-[35rem] lg:w-[30%] rounded-xl text-white p-5 lg:mb-0">
+        <div className="bg-price lg:h-[35rem] lg:w-[30%] rounded-xl text-white p-5 lg:mb-0">
           <h4 className="text-2xl font-semibold pb-3">ADVANCED</h4>
           <p>
             Unlock the full potential of 9nynt Shop with a yearly subscription.
