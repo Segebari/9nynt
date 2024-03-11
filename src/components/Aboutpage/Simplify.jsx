@@ -2,7 +2,7 @@ import React from 'react'
 
 const Simplify = () => {
   return (
-    <div className="h-96 text-center flex flex-col items-center">
+    <div className="xs:min-h-96 xs:mb-20 lg:mb-0 lg:h-96 text-center flex flex-col items-center">
       <h3 className="font-bold text-4xl pb-5">
         Simplify Your Business Journey
       </h3>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Why = () => {
   return (
-    <div className="text-center h-96">
+    <div className="text-center xs:min-h-96 xs:mb-20 lg:mb-0 lg:h-96">
       <p className="font-semibold pb-3 uppercase">Why 9nynt Shop?</p>
       <h3 className="font-bold text-4xl pb-3">Efficiency Beyond Boundaries</h3>
       <p className="font-semibold pb-3 text-xl">
