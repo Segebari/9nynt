@@ -6,7 +6,7 @@ import verve from '../../assets/verve.svg'
 
 const Payment = () => {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center xs:mb-10 lg:mb-0">
       <h3 className="text-4xl text-center">Payment Methods</h3>
       <div className="flex my-10 gap-3">
         <img src={visa} alt="logo" className="h-10 w-30 mb-2" />
