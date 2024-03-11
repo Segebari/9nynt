@@ -25,7 +25,7 @@ const Benefitslogic = () => {
   ]
 
   return (
-    <div className="flex xs:flex-col md:flex  w-full justify-between pb-10">
+    <div className="flex xs:flex-col lg:flex-row  w-full justify-between pb-10">
       {contentList.map((content, index) => (
         <Benefits
           key={index}
