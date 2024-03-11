@@ -4,8 +4,8 @@ import Downloadbuttons from '../Downloadbuttons'
 
 const Takecontrol = () => {
   return (
-    <div className="bg-down flex justify-between xs:h-[30rem] lg:h-96 w-full my-28 rounded-md relative pt-14 px-10 overflow-hidden xs:text-center lg:text-left">
-      <div className="xs:px-auto lg:px-10">
+    <div className="bg-down flex xs:items-center justify-between xs:min-h-[25rem] xs:max-h-[27rem] lg:h-96 w-full my-28 rounded-md relative  lg:pt-14 px-10 overflow-hidden xs:text-center lg:text-left">
+      <div className="xs:px-1 lg:px-10">
         <h2 className="text-white xs:text-4xl lg:text-5xl font-bold">
           Take Control with 9nynt Shop!
         </h2>
